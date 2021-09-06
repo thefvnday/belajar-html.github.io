@@ -1,0 +1,53 @@
+.fandyborder {
+   
+  background-color:#84c2c1;
+  display:inline-block;
+  
+  color:#ffffff;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  padding: 22px 33px;
+  text-decoration:none;
+  text-shadow:1px 1px 1px 1px #21d904;
+    position: static;
+      width: 96%;
+    height: 10%; border-radius:   0px   0px 0px 0px;   
+
+  border: 10px solid white;
+  margin-top: -30px;
+  margin-bottom:  0px;
+  margin-right: -21px;
+  margin-left: -20px;
+  
+ }
+.fandybutton {
+  box-shadow:inset -2px -3px 0px -41px #84dec1;
+  background-color:#84c2c1;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:bold;
+  padding:20px 33px;
+  text-decoration:none;
+  text-shadow:1px 1px 1px 1px #21d904;
+    position: static;
+      width: 220px;
+    height: 25px; border-radius: 0px 0px;   border: 256 96px; 
+
+  border: 0px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  margin-left: 8px;
+  
+}
+.fandybutton:hover {
+  background-color:#84dec1;
+}
+.fandybutton:active {
+  position:relative;
+  top:12px;
+}

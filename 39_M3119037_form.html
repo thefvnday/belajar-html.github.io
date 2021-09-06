@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title> form</title>
+</head>
+
+<body style ="background:url(arch.jpg);background-repeat:no-repeat fixed;background-size : 100% 100%;">
+	<h1 align="center">  Curriculum Vitae</h1>
+	<form method="post" action="form.html" enctype="multipart/form-data">
+		Nama Depan : 
+		<br />
+			<input type="text" name="firstname" value="Nama Depan" size="40">
+		<br />
+		Nama Belakang : 
+		<br />
+			<input type="text" name="lastname" value="Nama Belakang" size="40" />
+		<br />
+		
+		Jenis Kelamin : 
+		<br />
+			<select name="select" size="2" >
+				<option value="laki">Laki-laki</option>
+				<option value="perempuan">Perempuan</option>
+			</select>
+		<br />
+		Tempat Lahir :
+		<br />
+			<input type="text" name="placeofbirth" value="Tempat lahir" size="40" />
+		<br />
+		Tanggal lahir :
+		<br />
+			<input type="date" name="dateofbirth" />
+		<br />
+		Alamat :
+		<br />
+			<textarea name="address" rows="3" cols="40"></textarea>
+		<br />
+		Agama :
+		<br />
+			<select name="select" >
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Budha">Budha</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Konghucu">Konghucu</option>
+			</select>
+		<br />
+		Riwayat Pendidikan :
+		<br />
+			<input type="checkbox" name="Edu" value="SD" /> SD
+			<input type="checkbox" name="Edu" value="SMP" /> SMP
+			<input type="checkbox" name="Edu" value="SMA" /> SMA
+			<input type="checkbox" name="Edu" value="Diploma" /> Diploma
+			<br />	
+			<input type="checkbox" name="Edu" value="Sarjana" /> Sarjana
+			<input type="checkbox" name="Edu" value="Magister" /> Magister
+			<input type="checkbox" name="Edu" value="Doktor" /> Doktor
+		<br />
+		<br />
+		Hobby :
+		<br />
+			<input type="checkbox" name="hobby" value="memancing" /> Memancing
+			<input type="checkbox" name="hobby" value="Main Game" /> Main Game
+			<input type="checkbox" name="hobby" value="Nonton Film" /> Nonton Film
+			<input type="checkbox" name="hobby" value="Travelling" /> Travelling
+			<input type="checkbox" name="hobby" value="Olahraga" /> Olahraga
+			<br />
+			<input type="checkbox" name="hobby" value="membaca" /> Membaca
+			<input type="checkbox" name="hobby" value="Main Musik" /> Main Musik
+			<input type="checkbox" name="hobby" value="Rebahan" /> Rebahan
+			<input type="checkbox" name="hobby" value="Menolong" /> Menolong
+			<input type="checkbox" name="hobby" value="Fotografi" /> Fotografi
+		<br />
+		<br />
+		Uploal Foto :
+		<br />
+		<input type="file" name="File" />
+		<br/>
+		<br/>
+		<br/>
+		<input type="submit" name="submit" value="Submit Here" />
+	</form>
+	<p>
+	</p>
+</body>
+</html>
